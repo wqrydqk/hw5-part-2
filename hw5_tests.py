@@ -152,3 +152,4 @@ class TestCard(unittest.TestCase):
 
 if __name__=="__main__":
     unittest.main()
+    # this comment is only used for testing the update(merge) works!
