@@ -33,6 +33,8 @@ class Card:
     def __init__(self, suit=0,rank=2):
         self.suit = suit
         self.suit_name = Card.suit_names[self.suit]
+     
+     # ends
 
         self.rank = rank
         if self.rank in Card.faces:
